@@ -1,0 +1,8 @@
+Rules for numbering:
+-Numbering starts at 1
+-Never start a number for an animation sprite at 0. (Such as "walking_left_01" should be "walking_left_1")
+-Numbers should always be at the end of a filename
+
+Rules for sprites:
+-Must face right
+-The fake pixel resolution is 640 width and 360 height. Sprites should be made with these dimensions in mind.
