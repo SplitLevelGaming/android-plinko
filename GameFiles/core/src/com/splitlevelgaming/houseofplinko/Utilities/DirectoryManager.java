@@ -7,9 +7,6 @@ import java.util.Hashtable;
 
 public class DirectoryManager{
   public ArrayList<String> pullDirectoriesFromFolder(String folderName, ArrayList<String> extensions){
-    File test = new File("./");
-    System.out.println(test.listFiles()[0].getName());
-    System.out.println(folderName);
     File folder = new File(folderName);
     File[] listOfFiles = folder.listFiles();
     ArrayList<String> retVal = new ArrayList<String>();
